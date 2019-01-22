@@ -1,0 +1,148 @@
+#title{
+  background-color: #ff4c68;
+  color:#fff;
+}
+h1{
+  font-family: "Montserrat-Black";
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+
+}
+
+.container-fluid{
+  padding:3% 15% 7%;
+}
+
+body{
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+/* Navigation Bar */
+.navbar{
+  padding: 0 0 4.5rem 0;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light"
+}
+/* Download Buttons */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+/* Title Image */
+.title-img{
+  width:60%;
+  transform: rotate(25deg);
+  right:30%;
+  position: absolute;
+}
+/* Features-section */
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+
+}
+h2{
+  font-family: "Montserrat-Bold";
+  line-height: 1.5;
+  font-size: 3rem;
+}
+h3{
+  font-family: "Montserrat-Bold";
+}
+p{
+  color: #8f8f8f;
+}
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color:#ff4c68;
+}
+/* Testimonials */
+#testimonials{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color:#fff;
+}
+.testimonial-img{
+  width:10%;
+  border-radius: 100%;
+  margin:20px;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;;
+}
+.press-logo{
+  width:15%;
+  margin:20px 20px 50px;
+}
+.carousel-item{
+  padding:7% 15%;
+}
+/* Pricing Section */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column{
+  padding:3% 2%;
+}
+@media (max-width:1028px){
+  .title-img{
+    position:static;
+    transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
+}
+/* Call to Action */
+#cta{
+  background-color:#ff4c68;
+  text-align: center;
+  padding: 13% 8%;
+
+}
+.cta{
+  font-family: "Montserrat-Black";
+  font-weight: bold;
+  color: #fff;
+  font-size: 7rem;
+  margin:30px;
+}
+.bcta{
+  margin:8px;
+  font-weight: bold;
+
+}
+/* Footer */
+#footer{
+  color:grey;
+  text-align: center;
+  background-color: #fff;
+  padding: 3% 5%;
+  margin: 5px;
+}
+.ptca{
+  margin: 2px;
+  padding: 20px;
+}
